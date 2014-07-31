@@ -1,0 +1,128 @@
+a.login {display: block;
+	position: relative; 
+	color: #fff; 
+	width: 241px; 
+	height: 32px; 
+	background-color: #0F4784; 
+	font-family: Segoe, Arial; 
+	font-size: 11pt; 
+	font-weight: bold; 
+	padding-top: 13px; 
+	text-align: center; 
+	border-radius: 11px; 
+	-moz-border-radius:11px; 
+	top: -156px; 
+	left: 3px; }
+a.login:hover {background-color: #98C9EA; 
+	color: #fff}
+a.navmenu { display: inline-block; 
+	float: left; 
+	color: black; 
+	text-decoration: none; 
+	height: 30px; 
+	font-size: 15pt; 
+	background: 9px 8px; 
+	padding: 11px 30px 0 30px;}
+a.navbarmenu:hover { text-decoration: underline; color: red;}
+a.signUp {display: block; 
+	position: relative; 
+	color: #fff; 
+	width: 241px; 
+	height: 32px; 
+	background-color: #0F4784; 
+	font-family: Segoe, Arial; 
+	font-size: 11pt; 
+	font-weight: bold; 
+	padding-top: 13px; 
+	text-align: center; 
+	border-radius: 11px; 
+	-moz-border-radius:11px; 
+	top: -156px; 
+	left: 3px; }
+a.signUp:hover {background-color: #98C9EA; color: #fff}
+body
+{
+  padding: 0; 
+  margin:0;
+  color: #3B3B3B;
+  height:100%;
+  min-height:100%;
+  background-color: #BFBFBF;
+  background-image: url('images/Page-BgGlare.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top left;
+  /*min-width: 900px;*/
+  min-width: 100%;
+}
+
+.segoeLarge { font-family: Segoe Black,Arial Bold,Arial; 
+	font-size: 11pt; font-weight: bold; }
+#siteHead {height: 200px;}
+#siteHeadContent {margin: 0 auto; 
+	width: 1000px; 
+	height: 84px; 
+	text-align: left; 
+	font-size: 14pt;}
+#wrapper {margin: 0 auto; 
+	width: 1000px; 
+	height: 623px; 
+	text-align: left;
+	padding-top: 6px;}
+#loginList { margin: 150px 400px 600px; 
+	background-color: #4294D0; 
+	padding: 13px; 
+	border-radius: 11px; 
+	-moz-border-radius: 11px; }
+#signUp { margin: 150px 400px 600px; 
+	background-color: #4294D0; 
+	padding: 13px; 
+	border-radius: 11px; 
+	-moz-border-radius: 11px; }
+#gaap {height: 10px;}
+#pi_siteHead { background: #454552 repeat-x 0px 0px; height: 87px; }
+#pi_siteHeadcontent { background:#454552 url('images/sammri_logo2.jpg') no-repeat 20px 0px; 
+margin: 0 auto;
+ width: 1000px; 
+ height: 87px; 
+ font-size: 14pt; }
+
+
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: 100;
+}
+.jumbotron > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotron {
+  border-radius: 6px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .container .jumbotron {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
+}

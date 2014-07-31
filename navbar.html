@@ -1,0 +1,115 @@
+<?php include("./config/setup.php");?>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- Static navbar -->
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Home</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <!--<li class="active"><a href="#">Link</a></li>-->
+
+              <li><a href="#"><?php echo $row2["menu"]; ?></a></li>
+              <!--<li><a href="#"><?php echo $row4[""]; ?></a></li>-->
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php
+                echo $row4["menu"];?>
+                  <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#"><?php echo $row4["menu_item"]; ?></a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php
+                echo $row1["menu"];?>
+                  <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#"><?php echo $row1["menu_item"]; ?></a></li>
+                  <li><a href="#"><?php echo $row1["sub_menu_item"]; ?></a></li>
+                  <!--<li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>-->
+                </ul>
+
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php
+                echo $row3["menu"];?>
+                  <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#"><?php echo $row3["menu_item"]; ?></a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="../bootstrap-3.2.0/docs/examples/navbar-fixed-top/">Log out</a></li>
+              <!--<li><button type="submit" class="btn btn-default">Submit</button></li>-->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </div>
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <!--<div style="width: 100%">
+      <div style="width: 15%; float: left;" class="jumbotron"><p>Crazy monkey technique</p></div>-->
+
+      <div class="row">
+        <div class="col-md-2"><div class="jumbotron1"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div>
+
+        <div class="col-md-8">
+          <div class="jumbotron">
+            <h1>Navbar example</h1>
+            <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-2"><div class="jumbotron1"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div>
+        </div>
+      <!--<div style="width: 10%; float: right;" class="jumbotron"><p>Crazy monkey technique</p></div>
+      </div>-->
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../bootstrap-3.2.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
